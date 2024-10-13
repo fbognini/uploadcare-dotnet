@@ -1,9 +1,15 @@
 uploadcare-dotnet
 ===============
 
-[![Build Status](https://okolobaxa.visualstudio.com/uploadcare-dotnet/_apis/build/status/okolobaxa.uploadcare-dotnet?branchName=master)](https://okolobaxa.visualstudio.com/uploadcare-dotnet/_build/latest?definitionId=1&branchName=master)
-[![NuGet version](http://img.shields.io/nuget/v/UploadcareCSharp.svg)](https://www.nuget.org/packages/UploadcareCSharp/)&nbsp;
+[![NuGet version](http://img.shields.io/nuget/v/fbognini.Uploadcare.svg)](https://www.nuget.org/packages/fbognini.Uploadcare/)&nbsp;
 
+## Discalimer
+This project is a fork of the original repository [UploadcareCSharp](https://github.com/okolobaxa/uploadcare-dotnet/) created and maintained by Anton Kheistver. 
+It has been updated to include additional features, bug fixes, and compatibility improvements.
+
+While the original version may no longer be actively maintained, this fork aims to continue development and provide ongoing support.
+
+## Summary
 C# library for Uploadcare. Uploadcare is a content delivery platform that optimizes web performance for developers, startups and large enterprises.
 
 Supported features:
@@ -14,12 +20,12 @@ Supported features:
 - Signed uploads
 - Simple and signed auth
 
-TODO:
+Missing features:
 - Multi-part uploads
 - Throttling
 
 ## Nuget
-Latest stable version is available from [NuGet Gallery](https://www.nuget.org/packages/UploadcareCSharp/)
+Latest stable version is available from [NuGet Gallery](https://www.nuget.org/packages/fbognini.Uploadcare/)
 
 ## Installation
 
@@ -91,8 +97,8 @@ catch (UploadFailureException ex)
 ```
 For any requests, bug or comments, please [open an issue][issues] or [submit a pull request][pulls].
 
-[issues]: https://github.com/okolobaxa/uploadcare-dotnet/issues/new
+[issues]: https://github.com/fbognini/uploadcare-dotnet/issues/new
 [nuget-cli]: https://docs.microsoft.com/en-us/nuget/tools/nuget-exe-cli-reference
 [package-manager-console]: https://docs.microsoft.com/en-us/nuget/tools/package-manager-console
-[pulls]: https://github.com/okolobaxa/uploadcare-dotnet/pulls
+[pulls]: https://github.com/fbognini/uploadcare-dotnet/pulls
 [dotnet-core-cli-tools]: https://docs.microsoft.com/en-us/dotnet/core/tools/
